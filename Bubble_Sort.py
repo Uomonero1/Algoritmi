@@ -1,6 +1,7 @@
 from time import perf_counter
+import numpy as np
 
-lista = [48,29,36,35,58,1,12,7,90,88]
+lista = np.random.randint(0, 1000, size=1000, dtype=int)
 
 def bubble_sort(lista):
     for j in range(len(lista)):
